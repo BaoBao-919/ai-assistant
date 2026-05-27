@@ -5,7 +5,7 @@ const cors = require('cors');
 const axios = require('axios');
 
 const app = express(); // 创建 Express 应用
-// const PORT = 3000;    // 设置后端服务器端口
+const PORT = 3000;    // 设置后端服务器端口
 const PORT = process.env.PORT || 3000;    // 设置后端服务器端口，Render会提供PORT环境变量
  
 // 解决跨域问题，让前端能访问本后端
